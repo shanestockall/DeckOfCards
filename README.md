@@ -14,6 +14,7 @@ To run unit tests (located under the test directory):
 
 If all goes well, you should see something like this: 
 
+```bash
 > @ test /Users/shanestockall/Desktop/DeckOfCards
 > mocha
 
@@ -30,6 +31,8 @@ If all goes well, you should see something like this:
 
   10 passing (9ms)
 
+```
+
 ## Further Development
 I was going to add a UI to this for fun, but including a build with webpack or browserify seemed a little bit overkill for the sake of this assignment and the suggested 2 hour time limit. It would be totally possible. 
 
@@ -39,13 +42,18 @@ In Deck.js I also included the suggested improvement for the deal function (line
 
 All node dependencies are for Mocha, the unit test suite that I used for this assignment
 
-DeckOfCards
-	node_modules
-	src 
-		Card.js (Card class)
-		Deck.js (Deck class)
-	test
-		Card.test.js (tests for Card class)
-		Deck.test.js (tests for Deck class)
-	package-lock.json
-	package.json
+```bash
+.
+├── node_modules
+├── README.md
+├── package-lock.json
+├── package.json
+├── src
+│   ├── Card.js
+│   └── Deck.js
+└── test
+    ├── Card.test.js
+    └── Deck.test.js
+
+```
+
