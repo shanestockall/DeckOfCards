@@ -34,7 +34,7 @@ If all goes well, you should see something like this:
 ```
 
 ## Further Development
-I was going to add a UI to this for fun, but including a build with webpack or browserify seemed a little bit overkill for the sake of this assignment and the suggested 2 hour time limit. It would be totally possible. 
+I was going to add a UI to this for fun, but including a build with webpack or browserify seemed a little bit overkill for the sake of this assignment and the suggested 2 hour time limit. That said, doing so would be totally possible by either adding webpack/browserify and using main.js on the client or refactoring the code to not use require. 
 
 In Deck.js I also included the suggested improvement for the deal function (line 57). 
 
